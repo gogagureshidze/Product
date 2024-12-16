@@ -1,0 +1,58 @@
+.mainpage {
+    background-image: url('/nework.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+}
+
+.mainpage::before {
+    content: '';
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity (0.5 = 50% darkness) */
+    z-index: 1;
+  }
+
+.mainpagechild {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+.mainpagechild p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainpagechild h1 {
+    font-size: 52px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mainpagechild button {
+    padding: 8px 15px;
+    background-color: red;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .2s;
+}
+
+.mainpagechild button:hover {
+    background-color: rgb(136, 25, 25);
+}
+
+
+
+

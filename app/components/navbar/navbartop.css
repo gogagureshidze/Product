@@ -1,0 +1,46 @@
+.Navbartop {
+    background-color: #1a1a1c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbartop-left {
+
+}
+
+.navbartop-left h2 {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #808083;
+}
+
+.navbartop-right {
+    display: flex;
+}
+
+.navbartop-right select {
+    border: none;
+    outline: none;
+    background-color: #1a1a1c;
+    color: #949496;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbartop-right select:hover {
+    color: white;
+}
+
+.navbartop-right hr {
+    background-color: rgb(113, 110, 110);
+    width: 1px;
+    height: 50px;
+    margin: 0 10px;
+}
